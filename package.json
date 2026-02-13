@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenamitiaieva/nodejs-hw.git"
+  },
+  "keywords": [],
+  "author": "helenamitiaieva@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helenamitiaieva/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/helenamitiaieva/nodejs-hw#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pino-http": "^11.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0",
+    "nodemon": "^3.1.11"
+  }
+}
